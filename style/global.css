@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+:root{
+    --cor-preto: #000000;
+    --cor-verde: #34485e;
+    --cor-azul:  #3f4b8b;
+    --cor-azul:  #1b3987;
+    --cor-azulclaro: #6d77b0;
+    --cor-cinza: #8f8f8f;
+    --cor-branco: #dedede;
+
+    --borda: 1px solid var(--cor-cinza);
+    --borda-arredondada: 2px;
+
+
+    --tamanaho-fonte-lg: 20px;
+    --tamanaho-fonte-md: 16px;
+    --tamanaho-fonte-sm: 14px;
+    
+    
+
+
+}
+
+
+
+
+*{
+font-family: "Open Sans",  sans-serif ;
+padding: 0%;
+margin: 0%;
+box-sizing: border-box; /*o valor total do tamanho do elemento conta tanto com espacos internos e externos e a borda */
+
+
+}
+body{
+background-color: var(--cor-verde);
+
+}
+
+h1{
+    position: absolute;
+    z-index: -1 ;
+    opacity: 0;
+}
+/*formulario*/
+input{
+    width: 100%;
+    height: 35px;
+    border: var(--borda);
+    background-color:#fafafa;
+}
